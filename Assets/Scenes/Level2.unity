@@ -717,6 +717,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ecad5ace2453d4792cf45db2d912b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  closingDoorSoundName: 
+  animationTime: 0.5
+  key: 
+  notKeySound: 
 --- !u!114 &33517678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,6 +880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c225b580e144d448f6ab4ce2a9a9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
 --- !u!225 &36754009
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -976,6 +983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2abd324e57713244be08b865ee9a84a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderText: {fileID: 0}
 --- !u!1 &53463546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,6 +1057,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1c82b0564ea09409ab6cea1e8639cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  animationTime: 0.5
+  rotationAmount: 130
+  rotationDirection: 0
 --- !u!114 &58466754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1061,6 +1073,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8295600a00b7a841856c22ba8753ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  notInteractableObjects: []
 --- !u!114 &58466755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1827,6 +1841,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ecad5ace2453d4792cf45db2d912b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  closingDoorSoundName: 
+  animationTime: 0.5
+  key: 
+  notKeySound: 
 --- !u!114 &84768676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2620,6 +2639,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ecad5ace2453d4792cf45db2d912b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  closingDoorSoundName: 
+  animationTime: 0.5
+  key: 
+  notKeySound: 
 --- !u!1 &162528065
 GameObject:
   m_ObjectHideFlags: 0
@@ -3436,6 +3460,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d56f8bdf2b1d234ba89dec1c9ea0275, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
+  disableDirection: 0
+  pixelsTransitionAmount: 0
+  positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
 --- !u!225 &214781363
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3664,6 +3695,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1c82b0564ea09409ab6cea1e8639cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  animationTime: 0.5
+  rotationAmount: 130
+  rotationDirection: 0
 --- !u!114 &221653102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3676,6 +3711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8295600a00b7a841856c22ba8753ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  notInteractableObjects: []
 --- !u!114 &221653103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6087,6 +6124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1c82b0564ea09409ab6cea1e8639cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  animationTime: 0.5
+  rotationAmount: 130
+  rotationDirection: 0
 --- !u!114 &512168796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6099,6 +6140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8295600a00b7a841856c22ba8753ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  notInteractableObjects: []
 --- !u!114 &512168797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7535,7 +7578,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a29c3eaa70b2a4582e9697e67238d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetiveScene: 0
 --- !u!4 &601485192
 Transform:
   m_ObjectHideFlags: 0
@@ -8142,6 +8184,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ecad5ace2453d4792cf45db2d912b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  closingDoorSoundName: 
+  animationTime: 0.5
+  key: 
+  notKeySound: 
 --- !u!1 &624788607
 GameObject:
   m_ObjectHideFlags: 0
@@ -8673,6 +8720,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ecad5ace2453d4792cf45db2d912b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  closingDoorSoundName: 
+  animationTime: 0.5
+  key: 
+  notKeySound: 
 --- !u!114 &717228759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10200,6 +10252,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ecad5ace2453d4792cf45db2d912b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  closingDoorSoundName: 
+  animationTime: 0.5
+  key: 
+  notKeySound: 
 --- !u!114 &844665316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10987,6 +11044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2abd324e57713244be08b865ee9a84a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderText: {fileID: 0}
 --- !u!1 &925009807
 GameObject:
   m_ObjectHideFlags: 0
@@ -11591,6 +11649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d58583965a93a24389c9e635fa4f746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
 --- !u!225 &968819202
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -12944,6 +13004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8295600a00b7a841856c22ba8753ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  notInteractableObjects: []
 --- !u!114 &1085097190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12968,6 +13030,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1c82b0564ea09409ab6cea1e8639cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  animationTime: 0.5
+  rotationAmount: 130
+  rotationDirection: 0
 --- !u!1 &1091940268
 GameObject:
   m_ObjectHideFlags: 0
@@ -14434,6 +14500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9d37160240d26a4581073ecd10acb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
 --- !u!225 &1183318985
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -16211,6 +16279,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1c82b0564ea09409ab6cea1e8639cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  animationTime: 0.5
+  rotationAmount: 130
+  rotationDirection: 0
 --- !u!114 &1312660168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16223,6 +16295,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8295600a00b7a841856c22ba8753ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  notInteractableObjects: []
 --- !u!114 &1312660169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16360,6 +16434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41a3c07106b5b294f8afb85a85c43591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _id: 
 --- !u!4 &1326022863
 Transform:
   m_ObjectHideFlags: 0
@@ -17253,6 +17328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce32d144977d4a479a0021ba7102152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  graspableObject: {fileID: 0}
 --- !u!114 &1422592961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18389,6 +18466,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b97230cce5863b8449223b2e8f4a4897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
+  FP: 0
 --- !u!225 &1460248297
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -18647,6 +18727,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7de5b8249a0295d4faa6453a30804e24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseOnStart: 0
+  capturedMouse: 0
+  menuManager: {fileID: 0}
 --- !u!4 &1469928018
 Transform:
   m_ObjectHideFlags: 0
@@ -20557,6 +20640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41a3c07106b5b294f8afb85a85c43591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _id: 
 --- !u!1 &1670096560
 GameObject:
   m_ObjectHideFlags: 0
@@ -22186,6 +22270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c225b580e144d448f6ab4ce2a9a9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
 --- !u!225 &1816157879
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -22541,6 +22627,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c225b580e144d448f6ab4ce2a9a9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
 --- !u!225 &1837643321
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -23803,6 +23891,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1c82b0564ea09409ab6cea1e8639cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  animationTime: 0.5
+  rotationAmount: 130
+  rotationDirection: 0
 --- !u!114 &1989152753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23815,6 +23907,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8295600a00b7a841856c22ba8753ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactSoundName: 
+  notInteractableObjects: []
 --- !u!114 &1989152754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24122,6 +24216,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 242b6eecb1f62ce4a8827214edba16e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeOnAwake: 0
+  transitionDuration: 0
+  disableDirection: 0
+  pixelsTransitionAmount: 0
+  positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
 --- !u!114 &2007303031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24378,6 +24479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2abd324e57713244be08b865ee9a84a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderText: {fileID: 0}
 --- !u!1 &2064032631
 GameObject:
   m_ObjectHideFlags: 0
