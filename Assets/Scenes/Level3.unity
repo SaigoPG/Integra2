@@ -938,9 +938,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 168613100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 250, y: -272.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 182.2322, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11985056
@@ -9024,8 +9024,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1855266583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11673,7 +11673,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 182690355}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2117288394}
+        m_TargetAssemblyTypeName: PopupController, Assembly-CSharp
+        m_MethodName: OnContinueButtonPanel3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &182690355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20210,9 +20222,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 168613100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 250, y: -137.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 175.2774, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318222522
@@ -20925,8 +20937,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2014291305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -26601,7 +26613,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 427813574}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2117288394}
+        m_TargetAssemblyTypeName: PopupController, Assembly-CSharp
+        m_MethodName: ShowPanel3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &427813574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26673,7 +26697,7 @@ RectTransform:
   m_Father: {fileID: 155590307}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -43468,7 +43492,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 895356432}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2117288394}
+        m_TargetAssemblyTypeName: PopupController, Assembly-CSharp
+        m_MethodName: ShowPanel3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &895356432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46754,7 +46790,7 @@ RectTransform:
   m_Father: {fileID: 1598646869}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -54910,9 +54946,9 @@ RectTransform:
   - {fileID: 816300751}
   m_Father: {fileID: 1112229129}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -48}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183488821
@@ -55728,7 +55764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1216703416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57188,7 +57224,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1272508533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2117288394}
+        m_TargetAssemblyTypeName: PopupController, Assembly-CSharp
+        m_MethodName: ShowPanel2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1272508533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65120,8 +65168,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 980832909}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -65606,8 +65654,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.226368, y: 3.5991569, z: 5.75002}
-  m_Center: {x: 1.613184, y: 1.8746889, z: 1.3117537}
+  m_Size: {x: 8.459488, y: 3.5991569, z: 10.837487}
+  m_Center: {x: 4.8742447, y: 1.8746889, z: 3.8554873}
 --- !u!4 &1486932194
 Transform:
   m_ObjectHideFlags: 0
@@ -65617,7 +65665,7 @@ Transform:
   m_GameObject: {fileID: 1486932191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 96.38682, y: -1.6416191, z: -22.311754}
+  m_LocalPosition: {x: -74.99, y: 52.7, z: -22.311754}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65670,9 +65718,9 @@ RectTransform:
   - {fileID: 1325753501}
   m_Father: {fileID: 1112229129}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -188.53333}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1504396159
@@ -68511,9 +68559,9 @@ RectTransform:
   - {fileID: 777500817}
   m_Father: {fileID: 1112229129}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -329.06665}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544269323
@@ -68832,7 +68880,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1553621878}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2117288394}
+        m_TargetAssemblyTypeName: PopupController, Assembly-CSharp
+        m_MethodName: OnContinueButtonPanel4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1553621878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72024,7 +72084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1657480941
 RectTransform:
   m_ObjectHideFlags: 0
@@ -76572,7 +76632,7 @@ RectTransform:
   m_Father: {fileID: 1670977499}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -77830,9 +77890,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1756538337}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 347.045, y: -323.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 190, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916780624
@@ -83829,9 +83889,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1756538337}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 347.045, y: -164.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 190, y: 78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980349981
@@ -94088,7 +94148,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2084591374}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2117288394}
+        m_TargetAssemblyTypeName: PopupController, Assembly-CSharp
+        m_MethodName: ShowPanel4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2084591374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94420,19 +94492,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2117288392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f9722558675e6a42a5f463215cea130, type: 3}
+  m_Script: {fileID: 11500000, guid: b0ded209c8351524d8b4301b017233c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adPopup: {fileID: 2117288392}
-  adImage: {fileID: 0}
-  adButton: {fileID: 0}
-  closeButton: {fileID: 0}
-  adPopupImages: []
-  adPopupURLs: []
-  minTimeBetweenAds: 5
-  maxTimeBetweenAds: 15
-  initialDelay: 15
-  timeBeforeCloseButtonAppears: 3
+  canvasPopup: {fileID: 1216703415}
+  panel1: {fileID: 13434691}
+  panel2: {fileID: 236599806}
+  panel3: {fileID: 536567696}
+  panel4: {fileID: 115065122}
+  continueButtonPanel3: {fileID: 182690354}
+  continueButtonPanel4: {fileID: 1553621877}
+  initialDelay: 60
+  buttonDelay: 3
+  popupHideDelay: 30
 --- !u!43 &2122212405
 Mesh:
   m_ObjectHideFlags: 0

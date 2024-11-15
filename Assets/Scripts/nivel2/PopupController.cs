@@ -24,13 +24,14 @@ public class PopupController : MonoBehaviour
     IEnumerator ShowPopupAfterInitialDelay()
     {
         yield return new WaitForSeconds(initialDelay); // Espera 60 segundos antes de mostrar el canvas
-        ShowPanel1(); // Muestra el primer panel
+        ShowPanel1(); 
     }
 
     public void ShowPanel1()
     {
         SetActivePanel(panel1);
-        canvasPopup.SetActive(true); // Activa el canvas al mostrar el primer panel
+        canvasPopup.SetActive(true);
+        PauseGame();
     }
 
     public void ShowPanel2()
@@ -42,14 +43,14 @@ public class PopupController : MonoBehaviour
     {
         SetActivePanel(panel3);
         StartCoroutine(ShowButtonAfterDelay(continueButtonPanel3));
-        PauseGame();
+       
     }
 
     public void ShowPanel4()
     {
         SetActivePanel(panel4);
         StartCoroutine(ShowButtonAfterDelay(continueButtonPanel4));
-        PauseGame();
+        
     }
 
     private void SetActivePanel(GameObject activePanel)
