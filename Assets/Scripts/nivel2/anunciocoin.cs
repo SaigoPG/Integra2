@@ -18,7 +18,7 @@ public class anunciocoin : MonoBehaviour
 
     void Start()
     {
-        adPopup.SetActive(false);
+        if (adPopup != null) adPopup.SetActive(false);
         closeButton.gameObject.SetActive(false);
 
         adButton.onClick.AddListener(ShowAd);
