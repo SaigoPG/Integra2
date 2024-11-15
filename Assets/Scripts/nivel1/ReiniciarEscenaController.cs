@@ -8,4 +8,9 @@ public class ReiniciarEscenaController : MonoBehaviour
         // Carga la escena actual desde el principio
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void CambiarAScena(int escenaIndex)
+    {
+        SceneManager.LoadScene(escenaIndex);
+    }
 }
