@@ -94502,9 +94502,9 @@ MonoBehaviour:
   panel4: {fileID: 115065122}
   continueButtonPanel3: {fileID: 182690354}
   continueButtonPanel4: {fileID: 1553621877}
-  initialDelay: 60
+  initialDelay: 40
   buttonDelay: 3
-  popupHideDelay: 30
+  popupHideDelay: 15
 --- !u!43 &2122212405
 Mesh:
   m_ObjectHideFlags: 0
