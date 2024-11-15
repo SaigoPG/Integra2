@@ -63,6 +63,8 @@ public class HealthManager : MonoBehaviour
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         coinsUI.ActualizeUI(currentHealth);
+        if (currentHealth < 0)
+            Death();
     }
 
     public void Death()
