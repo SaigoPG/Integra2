@@ -5348,6 +5348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeOnAwake: 1
   transitionDuration: 0.2
+  escene: 6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
