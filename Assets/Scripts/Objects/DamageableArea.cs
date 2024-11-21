@@ -34,6 +34,7 @@ public class DamageableArea : MonoBehaviour
 
     IEnumerator CooldownAttact()
     {
+        Debug.Log("Cooldown");
         trigger.enabled = false;
         yield return new WaitForSeconds(attackCooldownTime);
         trigger.enabled = true;

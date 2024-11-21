@@ -2477,7 +2477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &61385165
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -3983,7 +3983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &114350665
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -18627,7 +18627,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: c3563e5c0f083a64d8e95228aebdafbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19055,7 +19055,7 @@ Transform:
   m_GameObject: {fileID: 282329281}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7070808, y: -0, z: -0, w: 0.7071328}
-  m_LocalPosition: {x: 114.315285, y: 70.0977, z: -178.33447}
+  m_LocalPosition: {x: 117.27, y: 71.65, z: -178.33447}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19094,7 +19094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &282329285
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -22625,7 +22625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &448273837
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -23902,9 +23902,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 483640612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a7abf565f3b92041acf315f54e8a5f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 979c854edd258ec43a2016e3b4badef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  notInteractableObjects:
+  - {fileID: 1035689662}
 --- !u!65 &483640615
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24696,7 +24698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &536140195
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -26034,7 +26036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &564309754
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -29323,7 +29325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &623902003
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -30628,7 +30630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &628220055
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -33903,7 +33905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &815072604
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -35979,7 +35981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &836916227
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -37284,7 +37286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &840558620
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -39896,7 +39898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &960302471
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -47328,7 +47330,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: c3563e5c0f083a64d8e95228aebdafbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47661,7 +47663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1039154721
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -58028,7 +58030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1140765008
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -59333,7 +59335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1149890844
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -64462,9 +64464,21 @@ PrefabInstance:
       propertyPath: coinsUI
       value: 
       objectReference: {fileID: 1932827168}
+    - target: {fileID: 2904104497883531788, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2904104497883531788, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
+      propertyPath: startHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981660100931150042, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
+      propertyPath: canMove
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3981660100931150042, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
       propertyPath: jumpForce
-      value: 14
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7314585967128285792, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
       propertyPath: m_Name
@@ -66919,7 +66933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1432203824
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -68474,7 +68488,7 @@ Transform:
   m_GameObject: {fileID: 1486932191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 95.89, y: -1.6416191, z: -22.311754}
+  m_LocalPosition: {x: 96.15, y: -1.6416191, z: -22.311754}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69906,7 +69920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1524726836
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -74621,7 +74635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1603624404
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -77928,7 +77942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1647535078
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -79233,7 +79247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1647896863
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -99139,7 +99153,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: c3563e5c0f083a64d8e95228aebdafbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100265,7 +100279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1966693869
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -101865,7 +101879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &1992346596
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -103170,7 +103184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &2002676197
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -104475,7 +104489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &2003090240
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -106102,7 +106116,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: c3563e5c0f083a64d8e95228aebdafbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106435,7 +106449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &2078172804
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -107905,7 +107919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b04f86cec8414cadacf5514fd2019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 5
+  healAmount: 1
 --- !u!33 &2094972779
 MeshFilter:
   m_ObjectHideFlags: 10
