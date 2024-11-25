@@ -7,8 +7,10 @@ public class LockDoorFP : DoorFP
 {
     [SerializeField] private string key;
     [SerializeField] private string notKeySound;
+    [SerializeField] private bool noKeyNeeded;
 
     private InventoryComponent playerInventory;
+
     protected override void _Awake()
     {
         base._Awake();
@@ -19,7 +21,7 @@ public class LockDoorFP : DoorFP
     {
         GraspableObject keyObject = playerInventory.FindObject(key, false);
 
-        if (keyObject != null)
+        if (keyObject != null || noKeyNeeded)
         {
             base.Interact();
         }
