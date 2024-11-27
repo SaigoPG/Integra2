@@ -64464,22 +64464,6 @@ PrefabInstance:
       propertyPath: coinsUI
       value: 
       objectReference: {fileID: 1932827168}
-    - target: {fileID: 2904104497883531788, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
-      propertyPath: maxHealth
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 2904104497883531788, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
-      propertyPath: startHealth
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3981660100931150042, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
-      propertyPath: canMove
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3981660100931150042, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
-      propertyPath: jumpForce
-      value: 11
-      objectReference: {fileID: 0}
     - target: {fileID: 7314585967128285792, guid: 3b40cf87a82f15249bc0383e1ef35071, type: 3}
       propertyPath: m_Name
       value: Player
