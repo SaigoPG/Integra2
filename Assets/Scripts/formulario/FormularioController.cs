@@ -28,14 +28,14 @@ public class FormularioController : MonoBehaviour
         int seleccion6 = dropdown6.value + 1;
         string comentario = comentarioInput.text;
 
-        Debug.Log("Selección 1: " + seleccion1);
-        Debug.Log("Selección 2: " + seleccion2);
-        Debug.Log("Selección 3: " + seleccion3);
-        Debug.Log("Selección 4: " + seleccion4);
-        Debug.Log("Selección 5: " + seleccion5);
-        Debug.Log("Selección 6: " + seleccion6);
+        Debug.Log("Selecci?n 1: " + seleccion1);
+        Debug.Log("Selecci?n 2: " + seleccion2);
+        Debug.Log("Selecci?n 3: " + seleccion3);
+        Debug.Log("Selecci?n 4: " + seleccion4);
+        Debug.Log("Selecci?n 5: " + seleccion5);
+        Debug.Log("Selecci?n 6: " + seleccion6);
         Debug.Log("Comentario: " + comentario);
 
-        // Aquí puedes agregar la lógica para almacenar o enviar los datos
+        // Aqu? puedes agregar la l?gica para almacenar o enviar los datos
     }
 }
