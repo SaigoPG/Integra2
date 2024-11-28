@@ -6,6 +6,7 @@ using UnityEngine;
 public class LockDoor : Door
 {
     [SerializeField] private string key;
+    [SerializeField] private bool isUnlocked;
     [SerializeField] private string notKeySound;
 
     private InventoryComponent playerInventory;
@@ -19,7 +20,7 @@ public class LockDoor : Door
     {
         GraspableObject keyObject = playerInventory.FindObject(key, false);
 
-        if (keyObject != null)
+        if (keyObject != null || isUnlocked)
         {
             base.Interact();
         }
