@@ -23972,7 +23972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e536472dfff6e4ab36ed918e0d6555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 40
+  timer: 60
   textotimer: {fileID: 229923293}
   gameOverPanel: {fileID: 1005623811}
 --- !u!1 &493701442
