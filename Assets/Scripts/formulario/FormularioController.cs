@@ -35,13 +35,13 @@ public class FormularioController : MonoBehaviour
         string comentario = comentarioInput.text;
 
         // Imprimir los datos en la consola para verificación
-        Debug.Log("Selección 1: " + seleccion1);
-        Debug.Log("Selección 2: " + seleccion2);
-        Debug.Log("Selección 3: " + seleccion3);
-        Debug.Log("Selección 4: " + seleccion4);
-        Debug.Log("Selección 5: " + seleccion5);
-        Debug.Log("Selección 6: " + seleccion6);
-        Debug.Log("Comentario: " + comentario);
+        Debug.Log("Emoción: " + seleccion1);
+        Debug.Log("conocimientoPatrones: " + seleccion2);
+        Debug.Log("Molestia: " + seleccion3);
+        Debug.Log("MolestiaPatrones: " + seleccion4);
+        Debug.Log("Aprendizaje: " + seleccion5);
+        Debug.Log("Molestia: " + seleccion6);
+        Debug.Log("Nombre: " + comentario);
 
         // Enviar los datos a PlayFab
         EnviarDatosAPlayFab(seleccion1, seleccion2, seleccion3, seleccion4, seleccion5, seleccion6, comentario);
